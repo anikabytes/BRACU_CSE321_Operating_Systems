@@ -1,0 +1,49 @@
+cd Desktop/cse321/21101298_CSE321_Lab/ Assignment1
+touch a.txt
+cat >a.txt
+U
+B
+U
+N
+T
+U
+C
+P
+R
+O
+G
+R
+A
+M
+M
+I
+N
+G
+L
+I
+N
+U
+X
+C
+S
+E
+3
+2
+1
+O
+P
+E
+R
+A
+T
+I
+N
+G
+S
+Y
+S
+T
+E
+M
+S
+sed -n '5,17p' a.txt

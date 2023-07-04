@@ -1,0 +1,8 @@
+cd Desktop/cse321/21101298_CSE321_Lab/ Assignment1
+touch course.txt
+cat >course.txt
+CSE321:Operating System (Section:5)
+CSE350:Digital Electronics and Pulse Techniques (Section:6)
+CSE427:Machine Learning (Section:1)
+ECO101:Introduction to Microeconomics (Section:4)
+grep -o 'CSE' course.txt|wc -l
