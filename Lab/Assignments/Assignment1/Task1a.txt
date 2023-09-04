@@ -1,0 +1,18 @@
+cd Desktop/cse321/21101298_CSE321_Lab/ Assignment1
+touch 21101298_1.txt 21101298_2.txt 21101298_3.txt 21101298_4.txt
+mkdir AnikaIslam1 AnikaIslam2 
+mv 21101298_1.txt 21101298_2.txt 21101298_3.txt AnikaIslam1
+cd Anika1
+cp 21101298_1.txt 21101298_2.txt /home/anika-islam/Desktop/cse321/21101298_CSE321_Lab/ Assignment1/Anika2
+cd ..
+mkdir AnikaIslam3 
+cp -r AnikaIslam1 AnikaIslam3 
+cd AnikaIslam3
+ls -l 
+chmod 755 Anika1 
+ls -l 
+cd ..
+pwd
+mv Anika3 /home/anika-islam
+rm -r Anika1 Anika2 
+rm 21101298_4.txt
